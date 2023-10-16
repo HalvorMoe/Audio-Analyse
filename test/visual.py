@@ -7,7 +7,7 @@ from matplotlib.animation import FuncAnimation
 FORMAT = pyaudio.paInt16  # Audio format
 CHANNELS = 1  # Number of audio channels
 RATE = 44100  # Sampling Rate in Hz
-CHUNK = 512  # Number of frames per buffer
+CHUNK = 1024  # Number of frames per buffer
 DEVICE = 2    # Which audio device to use
 
 # Initialize PyAudio
